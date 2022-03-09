@@ -1,0 +1,21 @@
+main{
+    position: relative;
+    display: block;
+    height: auto;
+    width: 500px;
+    margin: 0 auto;
+    border: 5px solid white;
+}
+main,div{
+    box-sizing: border-box;
+}
+.box{
+    border: 5px solid black;
+}
+#second *{
+    display: inline-block;
+}
+.white{background-color: rgb(236, 243, 208);}
+.red{background-color: rgb(252, 50, 50);}
+.blue{background-color: rgb(45, 112, 255);}
+.yellow{background-color: yellow;}

@@ -1,0 +1,53 @@
+html,body{
+   margin: 0px;
+   padding: 0px;
+}
+body{
+    background-image: url(./images/unnamed.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    text-align: center;
+}
+fieldset{
+    border-radius: 8px;
+    border-color: black;
+    padding: 24px;
+}
+hr{
+    border-radius: 4px;
+    border-color: black;
+}
+.form{
+    margin: 50px auto;
+    width: 50%;
+}
+.title{
+    text-shadow: 2px 5px 5px red;
+}
+.price{
+    text-shadow: 2px 5px 5px yellow;
+}
+.food{
+    font-size: 16px;
+    font-style: oblique;
+}
+.snacks{
+    font-size: 16px;
+    font-style: oblique;
+}
+.drinks{
+    font-size: 16px;
+    font-style: oblique;
+}
+.sandwiches-choice-container{
+    margin-bottom: 16px;
+}
+.btn{
+    border: 0px;
+    padding: 6px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+}
