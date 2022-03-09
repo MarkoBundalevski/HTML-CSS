@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="./style/Website.css">
+        <title>Mini Quiz</title>
+    </head>
+    <body>
+        <div id="bg"></div>
+        <main>
+            <h1 class="Title">A quick Naruto quiz</h1>
+            <p>Test your knowledge in this short Naruto quiz!</p>
+            <p>Don't forget to have fun and enjoy!</p>
+            <hr>
+            <form method="GET">
+                <div class="q-one">
+                    <h2>Question no.1</h2>
+                    <h4>What justsu is being performed in this video?</h4>
+                    <video src="./video/Naruto Water Dragon Jutsu.mp4" controls></video>
+                    <br>
+                    <label for="fireball">Great Fireball Jutsu</label>
+                    <input type="radio" name="q-one" value="1" id="fireball">
+                    <br>
+                    <label for="earth">Earth Fissure Jutsu</label>
+                    <input type="radio" name="q-one" value="2" id="earth">
+                    <br>
+                    <label for="flame">Magnificent Flame Destroyer Jutsu</label>
+                    <input type="radio" name="q-one" value="3" id="flame">
+                    <br>
+                    <label for="water">Water Dragon Jutsu</label>
+                    <input type="radio" name="q-one" value="4" id="water">
+                </div>
+                <div class="q-two">
+                    <h2>Question no.2</h2>
+                    <h4>Who is Naruto's main rival and best friend at the same time?</h4>
+                    <label for="konohamaru">Konohamaru Sarutobi</label>
+                    <input type="radio" name="q-two" value="1" id="konohamaru">
+                    <br>
+                    <label for="kiba">Kiba Inuzuka</label>
+                    <input type="radio" name="q-two" value="2" id="kiba">
+                    <br>
+                    <label for="sasuke">Sasuke Uchiha</label>
+                    <input type="radio" name="q-two" value="3" id="sasuke">
+                    <br>
+                    <label for="orochimaru">Orochimaru</label>
+                    <input type="radio" name="q-two" value="4" id="orochimaru">
+                </div>
+                <div class="q-three">
+                    <h2>Question no.3</h2>
+                    <h4>What's the name of the village where Naruto is from?</h4>
+                    <label for="hidden-stone"><img src="./images/Iwagakure_Dome.png"><span>Hidden Stone Village</span></label>
+                    <input type="radio" name="q-three" value="1" id="hidden-stone">
+                    <br>
+                    <label for="hidden-leaf"><img src="./images/Konoha.jpg"><span>Hidden Leaf Village</span></label>
+                    <input type="radio" name="q-three" value="2" id="hidden-leaf">
+                    <br>
+                    <label for="hidden-mist"><img src="./images/Kirivillage.png"><span>Hidden Mist Village</span></label>
+                    <input type="radio" name="q-three" value="3" id="hidden-mist">
+                    <br>
+                    <label for="hidden-rain"><img src="./images/Naruto_shippuden_akatsuki_scHidden Rain.jpg"><span>Hidden Rain Village</span></label>
+                    <input type="radio" name="q-three" value="4" id="hidden-rain">
+                    <br>
+                    <label for="hidden-sand"><img src="./images/Sunagakure.png"><span>Hidden Sand Village</span></label>
+                    <input type="radio" name="q-three" value="5" id="hidden-sand">
+                </div>
+                <div class="q-four">
+                    <h2>Question no.4</h2>
+                    <h4>Who is the last antagonist (villain) of the series?</h4>
+                    <label for="orochimaru_two">Orochimaru</label>
+                    <input type="radio" name="q-four" value="1" id="orochimaru_two">
+                    <br>
+                    <label for="itachi">Itachi Uchiha</label>
+                    <input type="radio" name="q-four" value="2" id="itachi">
+                    <br>
+                    <label for="madara">Madara Uchiha</label>
+                    <input type="radio" name="q-four" value="3" id="madara">
+                    <br>
+                    <label for="obito">Obito</label>
+                    <input type="radio" name="q-four" value="4" id="obito">
+                    <br>
+                    <label for="jiraiya">Jiraiya</label>
+                    <input type="radio" name="q-four" value="5" id="jiraiya">
+                    <br>
+                    <label for="kaguya">Kaguya Otsutsuki</label>
+                    <input type="radio" name="q-four" value="6" id="kaguya">
+                </div>
+                <div class="q-five">
+                    <h2>Question no.5</h2>
+                    <h4>Which beast lives inside Naruto?</h4>
+                    <label for="matatabi">Matatabi - The Two Tailed Beast</label>
+                    <input type="radio" name="q-five" value="1" id="matatabi">
+                    <br>
+                    <label for="kokuo">Kokuo - The Five Tailed Beast</label>
+                    <input type="radio" name="q-five" value="2" id="kokuo">
+                    <br>
+                    <label for="kurama">Kurama - The Nine Tailed Beast</label>
+                    <input type="radio" name="q-five" value="3" id="kurama">
+                    <br>
+                    <label for="shukaku">Shukaku - The One Tailed Beast</label>
+                    <input type="radio" name="q-five" value="4" id="shukaku">
+                </div>
+                <button id="finish-btn" type="submit" name="finish" value="1">Finish</button>
+            </form>
+        </main>
+    </body>
+</html>
