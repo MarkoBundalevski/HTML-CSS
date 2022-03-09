@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Testform</title>
+    </head>
+    <body>
+        <form method="POST">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name">
+            <br>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password">
+        <br>
+            <p>Gender:</p>
+            <input type="radio" name="gender" value="male" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="female" id="female">
+            <label for="female">Female</label>
+
+        <br>
+            <p>Continent:</p>
+                <select name="devices" size="1">  
+                    <option value="">Please select...</option>
+                    <option value="europe" selected>Europe</option>
+                    <option value="asia">Asia</option>
+                    <option value="northamerica">North America</option>
+                    <option value="southamerica">South America</option>                     
+                    <option value="africa">Africa</option>
+                    <option value="australiaoceania">Australia and Oceania</option>
+                </select>
+        <br>
+            <p>Meals:</p>
+            <label for="breakfast">Breakfast</label>
+            <input type="checkbox" name="breakfast" value="breakfast" id="breakfast">
+            <label for="lunch">Lunch</label>
+            <input type="checkbox" name="lunch" value="lunch" id="lunch">
+            <label for="dinner">Dinner</label>
+            <input type="checkbox" name="dinner" value="dinner" id="dinner"> 
+        <hr>
+            <label for="comments">Your remarks:</label>
+            <textarea id="comments" name="comments" cols="40" rows="4" placeholder=""></textarea>
+            <button type="submit" name="Send">Send</button>
+            <button type="reset" name="Cancel">Cancel</button>
+        </form>                            
+    </body>                
+</html>

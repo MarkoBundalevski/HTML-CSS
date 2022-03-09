@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <!--Default img tag with some image and text-->
+        <img src="./img/Shaqi_jrvej.jpg.webp" alt="Some waterfall background">
+
+        <!--Image without height and width set-->
+        <img src="./img/Shaqi_jrvej.jpg.webp" alt="Some waterfall background" height="200px">
+        <!--Image linked with an URL-->
+        <h2>Image link</h2>
+        <a href="http://www.microsoft.com"><img src="./img/Shaqi_jrvej.jpg.webp"></a>
+        
+        <!--Image map-->
+        <h2>Image map</h2>
+        <img src="http://placehold.it/350x150" alt="350x150" usemap="#exampleImageMap">
+        <map name="exampleImageMap">
+            <area  shape="circle" coords="75,75,75" href="https://www.microsoft.com" target="_blank"/>
+            <area shape="circle" coords="275,75,75" href="https://www.google.com" />
+        </map>
+
+        <!--Table example-->
+        <!-- <table border="2px">
+            <thead>
+                <tr>
+                    <th>
+                        Row1,Column1
+                    </th>
+                    <th>
+                        Row1,Column2
+                    </th>
+                </tr>
+                </thead>
+                <tbody> 
+                    <tr>
+                        <td>
+                            Row2,Column1
+                        </td>
+                        <td>
+                            Row2,Column2
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th>Row3, Column1</th>
+                        <th>Row3, Column2</th>
+                    </tr>
+                </tfoot>
+        </table> -->
+
+        <!--Example with colspan and rowspan-->
+        <table border="2px" cellpadding="5px" cellspacing="4px">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>9AM</th>
+                    <th>10AM</th>
+                    <th>11AM</th>
+                    <th>12AM</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Monday</th>
+                    <td colspan="2">Geography</td>
+                    <td>Math</td>
+                    <td>Art</td>
+                </tr>
+                <tr>
+                    <th>Tuesday</th>
+                    <td colspan="3">Gym</td>
+                    <td>Home</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <hr>
+        <table border="2px">
+            <thead>
+                <th></th>
+                <th>ABC</th>
+                <th>BBC</th>
+                <th>CNN</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>6PM-7PM</th>
+                    <td rowspan="2">Movies</td>
+                    <td>Comedy</td>
+                    <td>News</td>
+                </tr>
+                <tr>
+                    <th>7PM-8PM</th>
+                    <td>Sport</td>
+                    <td>Current Affairs</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <hr>
+        <table border="2" cellpadding="5" cellspacing="4">
+            <caption>Movie table</caption>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Name</th>
+                    <th>Type of Movie</th>
+                    <th>IMDB rating</th>
+                    <th>Type of movie projection</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>19:30</th>
+                    <td>Eternals</td>
+                    <td>Action, Adventure, Fantasy</td>
+                    <td>10.0</td>
+                    <td>3D</td>   
+                </tr>
+                <tr>
+                    <th>21:00</th>
+                    <td>Juzni Vetar Part 2</td>
+                    <td>Crime, Drama, Thriller</td>
+                    <td>8.5</td>
+                    <td>2D</td>
+                </tr>
+                <tr>
+                    <th>22:30</th>
+                    <td>House of Gucci</td>
+                    <td>Crime, Drama, Thriller</td>
+                    <td>10.0</td>
+                    <td>2D</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="5">Cineplexx 2021</th>
+                </tr>
+            </tfoot>
+        </table>
+    </body>
+</html>

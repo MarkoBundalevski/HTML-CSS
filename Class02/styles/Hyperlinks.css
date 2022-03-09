@@ -1,0 +1,19 @@
+/* Hyperlinks */
+
+a:link{
+    text-decoration: none;
+    color: rgb(16, 143, 172);
+}
+
+a:visited{
+    color: rgb(205, 226, 17);
+}
+
+a:hover{
+    background-color: yellow;
+}
+
+a:active{
+    color: white;
+    background-color: rgb(22, 9, 212);
+}
