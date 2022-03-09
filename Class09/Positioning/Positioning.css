@@ -1,0 +1,50 @@
+/* Positioning with CSS */
+
+/* Relative positioning */
+.relative{
+    border: 1px solid grey;
+    /* position: static; default value */
+    position: relative;
+    /* offest values */
+    top: 30px;
+    left: 150px;
+}
+.absolute-parent{
+    width: 1200px;
+    margin: 50px 0;
+    position: relative;
+    border: 1px solid rebeccapurple;
+}
+.absolute-child{
+    position: absolute;
+    top: 30px;
+    right: -20px;
+    background-color: yellow;
+}
+
+.fixed{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    background-color: whitesmoke;
+    border: 1px solid red;
+    font-size: 33px;
+}
+
+/* Floating postion */
+.float-parent{
+    width: 1000px;
+    border: 1px solid salmon;
+}
+
+.float-child{
+    width: 80px;
+    height: 80px;
+    background-color: sandybrown;
+    float: left;
+}
+
+/* Clear fix */
+.clear-style{
+    clear: both;
+}

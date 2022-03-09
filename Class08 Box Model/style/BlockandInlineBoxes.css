@@ -1,0 +1,74 @@
+/* Box Models */
+
+* {
+    text-align: center;
+}
+
+h1 {
+    width: 500px;
+    height: auto;
+
+    background-color: orange;
+
+    /* --------------------- */
+    /* Margin */
+    margin-top: 50px;
+    margin-right: 70px;
+    margin-bottom: 30px;
+    margin-left: 80px;
+
+    /* Shorthand writing */
+    margin: 50px 70px 30px 80px;
+    margin: 30px 80px;
+    margin: 30px;
+
+    /* Central horizontal positioning with margin */
+    margin: 30px auto;
+
+    /* --------------------- */
+    /* Padding */
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+
+    /* Shorthand writing */
+    padding: 20px 30px 15px 10px;
+    padding: 20px 30px;
+    padding: 20px;
+
+    /* Border */
+    border-top-width: 5px;
+    border-right-width: 2px;
+    border-bottom-width: 3px;
+    border-left-width: 10px;
+
+    /* Shorthand writing */
+    border-width: 5px 2px 3px 10px;
+    border-width: 5px 10px;
+    border-width: 5px;
+
+    border-style: solid;
+
+    border-color: purple;
+
+    /* Very very shorthand writing */
+    border: 20px groove red;
+
+    /* Box-sizing */
+    /* box-sizing: content-box; */
+    box-sizing: border-box;
+}
+
+p {
+    width: 300px;
+    height: 300px;
+
+    border: 2px solid maroon;
+    margin: 30px auto;
+    padding: 5px;
+
+    /* handling overflow - content larger than element */
+    overflow: auto;
+
+}
